@@ -28,10 +28,36 @@ print(lista)
 lista=lista+ ["calcetines"]+["bufanda"]
 print(lista)
 
-#5.onectar elementos de una lista y borrar elementos de la misma
+#4. modificar elementos de una lista y borrar elementos de la misma
 lista=["camiseta","pantalon","zapatillas"]
 print(lista)
 lista[1]="cazadora"
 print(lista)
 del lista[0]
 print(lista)
+
+#5. uso del operador *, que permite concatenar una lista con ella misma un numero finito de veces
+lista=["camiseta","pantalon","zapatillas"]
+print(lista)
+lista_resultante= lista*3
+print(lista_resultante)
+
+#6. creacion de listas como elementos de listas y acceso a dichos elementos
+print("....ejercicio 6....")
+lista=["camiseta",["calcetines","cazadores"],"zapatillas"]
+print(lista)
+print(lista[1])
+print(lista[2])
+print(lista[1][0])
+print(lista[1][1])
+
+#7.extraer una porcion de la lista en una lista nueva
+print("....ejercicio 7....")
+lista=[1,2,3,4,5,6,7,8,9]
+print(lista)
+lista1=lista[3:7]
+print(lista1)
+lista2=lista[:5]
+print(lista2)
+lista3=lista[:6]
+print(lista3)
